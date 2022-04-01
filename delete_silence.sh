@@ -1,6 +1,6 @@
 #!/bin/sh
 
 # auto-editor
-# Elimina todas las secciones que esten por debajo del volumen 28%
+# Elimina todas las secciones que esten por debajo del volumen 28%, marco la opcion de no abrir el video cuando termine, luego da errores al abrir el editor
 
-auto-editor ./05/05_270421_modulos_for_tupla.mp4 -t 28% --no-open 
+auto-editor video.mp4 -t 28% --no-open 
